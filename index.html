@@ -4,33 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- the style sheet with most of the magic-->
   <link rel="stylesheet" href="css/app.css">
   <title>SPLIT SCREEN SLIDER</title>
 </head>
 <body>
+  <!-- this is the main wrapper that holds all of the items-->
   <section id="wrapper" class="skewed">
+   <!-- this is the main div for the bottom plane-->
     <div class="layer bottom">
+      <!-- this wraps the content of the image and text-->
       <div class="content-wrap">
+        <!-- the text-->
         <div class="content-body">
           <h1>Look Sharp</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ipsam ut cum autem ab cupiditate assumenda sit pariatur eaque distinctio?</p>
         </div>
-        
+        <!-- the image-->
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Blue_circle_logo.svg/220px-Blue_circle_logo.svg.png" alt="*">
       </div>
+      <!-- the top layer-->
       <div class="layer top">
+              <!-- this wraps the content of the image and text-->
+
       <div class="content-wrap">
         <div class="content-body">
           <h1>Look Cool</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ipsam ut cum autem ab cupiditate assumenda sit pariatur eaque distinctio?</p>
         </div>
-        
+                <!-- the image-->
+
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Circle_Rufous_Solid.svg/200px-Circle_Rufous_Solid.svg.png" alt="*2">
       </div>
     </div>
+    <!-- the div that is shapped to act as a separator-->
       <div class="handle"></div>
   </section>
-  
+  <!-- simple vanila js to follow the mouse.-->
   <script src='js/app.js'></script>
 </body>
 </html>
